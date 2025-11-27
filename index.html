@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | My Glowing Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Background Animations -->
+    <div id="tech-lines"></div>
+    <div id="particles"></div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo glow-hover">
+                <img src="images/logo.webp" alt="Logo" />
+                <span class="logo-text">MyPortfolio</span>
+            </div>
+
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul id="nav-links">
+                <li><a href="index.html" class="glow-hover">Home</a></li>
+                <li><a href="about.html" class="glow-hover">About</a></li>
+                <li><a href="skills.html" class="glow-hover">Skills</a></li>
+                <li><a href="projects.html" class="glow-hover">Projects</a></li>
+                <li><a href="contact.html" class="glow-hover">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <main>
+        <section id="home" class="section home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a <span id="typing-text"></span></p>
+            <button class="btn glow-hover" onclick="location.href='projects.html'">
+    Explore My Work
+</button>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Glowing Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
